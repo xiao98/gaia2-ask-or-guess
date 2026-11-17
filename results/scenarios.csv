@@ -1,0 +1,481 @@
+run,condition,split,scenario_id,in_random_subset,in_heldout30,passed,excess_writes_proxy,premature_write_verified,judge_failure_reason
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_21_1juxxq,True,False,False,True,,"Tool count mismatch: agent={'RentAFlat__save_apartment': 1, 'RentAFlat__remove_saved_apartment': 6, 'EmailClientV2__send_email': 1}, oracle={'RentAFlat__remove_saved_apartment': 6, 'RentAFlat__save_ap"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_21_2edv2p,True,False,False,True,,"Tool count mismatch: agent={'Calendar__delete_calendar_event': 8, 'MessagingAppV2__send_message': 1, 'EmailClientV2__send_email': 1}, oracle={'MessagingAppV2__send_message': 1, 'Calendar__delete_calen"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_21_3ixhl6,False,True,True,False,no,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_21_3sr7jy,False,True,False,True,yes,"Tool count mismatch: agent={'Contacts__edit_contact': 7, 'Shopping__add_to_cart': 1, 'Shopping__checkout': 1}, oracle={'Contacts__edit_contact': 7}"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_21_4hfih3,False,True,True,False,no,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_21_6oluaj,False,True,False,True,yes,"Tool count mismatch: agent={'EmailClientV2__send_email': 1, 'Calendar__add_calendar_event': 1, 'MessagingAppV2__create_group_conversation': 1, 'MessagingAppV2__send_message_to_group_conversation': 1, "
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_21_72o73s,False,False,False,True,,"Tool count mismatch: agent={'Calendar__delete_calendar_event': 6, 'EmailClientV2__send_email': 2, 'Calendar__add_calendar_event': 1, 'Shopping__add_to_cart': 1, 'Shopping__checkout': 1, 'Contacts__del"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_21_73o3ij,True,False,False,True,,"Tool count mismatch: agent={'Calendar__add_calendar_event': 1, 'Calendar__delete_calendar_event': 1, 'EmailClientV2__send_email': 1, 'Shopping__add_to_cart': 1, 'Shopping__checkout': 1}, oracle={'Cale"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_21_7cps5u,True,False,False,True,,"Tool count mismatch: agent={'Calendar__add_calendar_event': 1, 'EmailClientV2__send_email': 1, 'Shopping__add_to_cart': 3, 'Shopping__checkout': 1}, oracle={'Calendar__add_calendar_event': 1, 'EmailCl"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_21_9owswx,False,False,False,True,,"Tool count mismatch: agent={'Calendar__delete_calendar_event': 3, 'Shopping__add_to_cart': 1, 'Shopping__checkout': 1, 'CabApp__order_ride': 1}, oracle={'Shopping__add_to_cart': 1, 'Calendar__delete_c"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_21_a6n7ro,True,False,False,False,,Cannot match AgentUserInterface__send_message_to_user (OracleEvent-AGENT-bbbba111-595c-49c9-a5a9-be54638d3a12): AGENT-AgentUserInterface.send_message_to_user-78d310d6: user_message_checker (agent_args
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_21_b647lw,True,False,False,True,,"Tool count mismatch: agent={'Calendar__add_calendar_event': 2, 'Calendar__delete_calendar_event': 2}, oracle={'Calendar__delete_calendar_event': 2}"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_21_d9my2y,False,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_21_hwe7io,False,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_21_isnnos,False,True,False,True,yes,"Tool count mismatch: agent={'RentAFlat__save_apartment': 10, 'EmailClientV2__send_email': 1}, oracle={'RentAFlat__save_apartment': 10}"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_21_jg8s6c,False,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_21_k6d6m6,False,False,False,True,,"Tool count mismatch: agent={'Calendar__add_calendar_event': 2, 'Calendar__delete_calendar_event': 1, 'EmailClientV2__send_email': 3, 'Shopping__add_to_cart': 1, 'Shopping__checkout': 1}, oracle={'Emai"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_21_o7f7jp,False,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_21_pbnqu9,True,False,False,True,,"Tool count mismatch: agent={'Contacts__delete_contact': 1, 'Calendar__add_calendar_event': 1, 'CabApp__order_ride': 1, 'Shopping__add_to_cart': 2, 'Shopping__checkout': 1, 'EmailClientV2__reply_to_ema"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_21_rxk1cz,False,True,False,True,yes,"Tool count mismatch: agent={'Shopping__add_to_cart': 1, 'Shopping__checkout': 1, 'RentAFlat__save_apartment': 1, 'EmailClientV2__delete_email': 2, 'Contacts__add_new_contact': 1}, oracle={'RentAFlat__"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_21_t3fztm,False,True,False,True,yes,"Tool count mismatch: agent={'EmailClientV2__send_email': 3}, oracle={}"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_21_tlc249,False,True,True,False,no,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_21_uq7b9f,False,True,True,False,no,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_21_w6z7i3,False,False,False,True,,"Tool count mismatch: agent={'EmailClientV2__send_email': 6}, oracle={}"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_21_wf7z28,True,False,False,True,,"Tool count mismatch: agent={'Calendar__delete_calendar_event': 8, 'EmailClientV2__send_email': 1}, oracle={'Calendar__delete_calendar_event': 8}"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_21_y3l4za,True,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_22_0fgidr,False,True,True,False,no,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_22_1nwlhy,False,True,False,True,yes,"Tool count mismatch: agent={'Calendar__delete_calendar_event': 5, 'EmailClientV2__send_email': 3}, oracle={'Calendar__delete_calendar_event': 5}"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_22_1vo7zp,False,False,False,True,,"Tool count mismatch: agent={'RentAFlat__remove_saved_apartment': 4, 'EmailClientV2__reply_to_email': 1, 'Calendar__add_calendar_event': 1, 'Shopping__add_to_cart': 1, 'Shopping__checkout': 1}, oracle="
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_22_23z3eb,False,False,False,False,,"Cannot match EmailClientV2__send_email (OracleEvent-AGENT-524a4d54-e7b1-40f4-98ee-3f95d799bfd9): AGENT-EmailClientV2.send_email-34350e69: email_checker (agent_args={'subject': 'Wine Tasting', 'content"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_22_3ojwdb,False,False,False,True,,"Tool count mismatch: agent={'RentAFlat__save_apartment': 4, 'MessagingAppV2__send_message': 1, 'Calendar__add_calendar_event': 1, 'EmailClientV2__send_email': 1}, oracle={'RentAFlat__save_apartment': "
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_22_7lo2ky,True,False,False,True,,"Tool count mismatch: agent={'Calendar__add_calendar_event': 1, 'EmailClientV2__send_email': 3, 'CabApp__order_ride': 1}, oracle={'Calendar__add_calendar_event': 1, 'EmailClientV2__send_email': 3}"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_22_84d6ju,False,True,False,True,yes,"Tool count mismatch: agent={'Calendar__delete_calendar_event': 4, 'Calendar__add_calendar_event': 1, 'MessagingAppV2__create_group_conversation': 1, 'MessagingAppV2__send_message_to_group_conversation"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_22_8uschl,False,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_22_9mrcqu,False,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_22_cw7cl1,True,False,False,True,,"Tool count mismatch: agent={'CabApp__order_ride': 1, 'MessagingAppV2__send_message': 2, 'Shopping__add_to_cart': 1, 'Shopping__checkout': 1}, oracle={'CabApp__order_ride': 1, 'MessagingAppV2__send_mes"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_22_d170v2,False,False,False,True,,"Tool count mismatch: agent={'EmailClientV2__send_email': 1, 'Calendar__add_calendar_event': 1, 'EmailClientV2__reply_to_email': 1, 'Shopping__add_to_cart': 1, 'Shopping__checkout': 1}, oracle={'EmailC"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_22_dwnfdh,True,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_22_exxdvx,False,True,False,False,no,"Tool count mismatch: agent={'EmailClientV2__send_email': 1, 'Calendar__add_calendar_event': 1}, oracle={'EmailClientV2__send_email': 1, 'Calendar__add_calendar_event': 1, 'Calendar__delete_calendar_ev"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_22_gck0s0,False,True,False,False,no,"Cannot match Shopping__add_to_cart (OracleEvent-AGENT-b616ee6d-66e4-40c8-854d-aa25702b30c8): AGENT-Shopping.add_to_cart-ea71cdfa: eq_checker:item_id (agent=8cca4f40e1d54b638a0f96970245df98, oracle=27f"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_22_h97rf8,False,True,False,True,yes,"Tool count mismatch: agent={'Calendar__delete_calendar_event': 2, 'Calendar__add_calendar_event': 1, 'EmailClientV2__send_email': 1, 'CabApp__order_ride': 1, 'EmailClientV2__reply_to_email': 1}, oracl"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_22_hnbnsi,True,False,False,False,,Cannot match MessagingAppV2__send_message_to_group_conversation (OracleEvent-AGENT-8cae331c-c61d-420b-b268-c6311d6dfb58): AGENT-MessagingAppV2.send_message_to_group_conversation-90d4804c: eq_checker:c
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_22_meju08,True,False,False,True,,"Tool count mismatch: agent={'Calendar__add_calendar_event': 2, 'Calendar__delete_calendar_event': 1, 'Shopping__add_to_cart': 1, 'Shopping__checkout': 1, 'EmailClientV2__send_email': 1}, oracle={'Cale"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_22_oxdkdo,False,True,False,True,yes,"Tool count mismatch: agent={'Calendar__delete_calendar_event': 5, 'EmailClientV2__send_email': 1, 'MessagingAppV2__send_message': 1, 'CabApp__order_ride': 1}, oracle={'Calendar__delete_calendar_event'"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_22_p8xx4o,False,False,False,True,,"Tool count mismatch: agent={'Calendar__delete_calendar_event': 1, 'Calendar__add_calendar_event': 1, 'Shopping__add_to_cart': 3, 'Shopping__checkout': 1}, oracle={'Shopping__add_to_cart': 3, 'Shopping"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_22_qvnfrp,False,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_22_s4bqv7,False,True,False,True,yes,"Tool count mismatch: agent={'Calendar__add_calendar_event': 2, 'EmailClientV2__send_email': 3, 'Calendar__delete_calendar_event': 1, 'RentAFlat__remove_saved_apartment': 3}, oracle={'Calendar__delete_"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_22_sf7o8e,False,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_22_smwxaa,False,True,True,False,no,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_22_zmg4mb,False,True,True,False,no,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_23_0z2et0,False,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_23_67tp4z,True,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_23_arffaf,True,False,False,True,,"Tool count mismatch: agent={'MessagingAppV2__create_group_conversation': 1, 'Calendar__add_calendar_event': 2, 'MessagingAppV2__send_message_to_group_conversation': 1, 'CabApp__order_ride': 1}, oracle"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_23_f2rnjo,False,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_23_hd4ccm,False,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_23_iy0pbp,True,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_23_qqp7ys,False,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_23_wzbmxj,False,True,True,False,no,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_23_x1uuwg,False,True,True,False,no,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_24_098n1q,False,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_24_1ybabs,False,True,False,True,yes,"Tool count mismatch: agent={'Calendar__add_calendar_event': 6, 'Calendar__delete_calendar_event': 6, 'Contacts__delete_contact': 1}, oracle={'Calendar__delete_calendar_event': 6, 'Calendar__add_calend"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_24_2btmgn,False,False,False,True,,"Tool count mismatch: agent={'Calendar__delete_calendar_event': 7, 'EmailClientV2__send_email': 1}, oracle={'Calendar__delete_calendar_event': 7}"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_24_2d75t2,False,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_24_eyzv2c,True,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_24_ifzh2z,True,False,False,True,,"Tool count mismatch: agent={'Calendar__delete_calendar_event': 2, 'Calendar__add_calendar_event': 2, 'MessagingAppV2__send_message': 1, 'EmailClientV2__reply_to_email': 3, 'Shopping__add_to_cart': 1, "
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_24_la711e,False,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_24_mq0qtw,True,False,False,True,,"Tool count mismatch: agent={'Shopping__add_to_cart': 5, 'Shopping__checkout': 1}, oracle={'Shopping__add_to_cart': 4}"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_24_ooxsie,False,False,False,True,,"Tool count mismatch: agent={'Calendar__delete_calendar_event': 4, 'EmailClientV2__send_email': 2, 'Shopping__add_to_cart': 1, 'Shopping__checkout': 1}, oracle={'Calendar__delete_calendar_event': 4, 'E"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_24_ozc89a,False,True,False,True,yes,"Tool count mismatch: agent={'Calendar__add_calendar_event': 1, 'EmailClientV2__send_email': 1, 'EmailClientV2__reply_to_email': 1}, oracle={'Calendar__add_calendar_event': 1, 'EmailClientV2__send_emai"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_24_pb6lig,False,True,False,True,yes,"Tool count mismatch: agent={'Calendar__add_calendar_event': 2, 'MessagingAppV2__create_group_conversation': 2, 'MessagingAppV2__send_message_to_group_conversation': 2, 'Shopping__add_to_cart': 1, 'Sho"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_24_reec2f,True,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_24_t2fj87,False,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_24_tbc7ew,True,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_24_xuj7on,False,False,False,True,,"Tool count mismatch: agent={'Shopping__add_to_cart': 2, 'Shopping__checkout': 1, 'EmailClientV2__send_email': 1, 'Calendar__add_calendar_event': 1}, oracle={'Shopping__add_to_cart': 2, 'Shopping__chec"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_24_xzg90t,False,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_24_ympalb,False,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_25_1zr9lt,False,True,False,True,no,"Tool count mismatch: agent={'Contacts__add_new_contact': 3, 'EmailClientV2__delete_email': 2, 'EmailClientV2__send_email': 3}, oracle={'EmailClientV2__send_email': 3, 'Contacts__add_new_contact': 3, '"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_25_4v0rsg,True,False,False,True,,"Tool count mismatch: agent={'Calendar__delete_calendar_event': 2, 'RentAFlat__save_apartment': 3, 'EmailClientV2__send_email': 1}, oracle={'Calendar__delete_calendar_event': 2, 'RentAFlat__save_apartm"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_25_8ygwb8,True,False,False,True,,"Tool count mismatch: agent={'Calendar__add_calendar_event': 1, 'CabApp__order_ride': 1, 'MessagingAppV2__send_message': 2, 'EmailClientV2__send_email': 1}, oracle={'CabApp__order_ride': 1}"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_25_dpx742,True,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_25_eeblgo,True,False,False,True,,"Tool count mismatch: agent={'Contacts__edit_contact': 1, 'EmailClientV2__send_email': 2, 'CabApp__order_ride': 1, 'Calendar__add_calendar_event': 1}, oracle={'Calendar__add_calendar_event': 1, 'EmailC"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_25_gxxvv1,False,True,False,True,yes,"Tool count mismatch: agent={'Shopping__add_to_cart': 1, 'Shopping__checkout': 1, 'Calendar__add_calendar_event': 1, 'MessagingAppV2__send_message': 1, 'Calendar__delete_calendar_event': 1}, oracle={'C"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_25_kg0fti,False,True,False,False,no,"Tool count mismatch: agent={'EmailClientV2__delete_email': 2, 'RentAFlat__remove_saved_apartment': 11}, oracle={'EmailClientV2__delete_email': 2, 'RentAFlat__remove_saved_apartment': 4}"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_25_lvk4j1,False,True,False,False,no,Cannot match AgentUserInterface__send_message_to_user (OracleEvent-AGENT-09cf2b34-1eba-4dbc-bc36-7798547a8340): AGENT-AgentUserInterface.send_message_to_user-b4d49386: user_message_checker (agent_args
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_25_mnwbk8,True,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_25_ndl2ou,True,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_26_37dcq3,False,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_26_3y5jkb,False,True,False,False,no,Cannot match AgentUserInterface__send_message_to_user (OracleEvent-AGENT-219014fd-ee08-4776-8121-0956e1a9dc26): AGENT-AgentUserInterface.send_message_to_user-df1da703: user_message_checker (agent_args
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_26_4vt3k5,False,True,False,True,yes,"Tool count mismatch: agent={'Shopping__add_to_cart': 3, 'Shopping__checkout': 1, 'Calendar__add_calendar_event': 1}, oracle={'Shopping__add_to_cart': 3, 'Shopping__checkout': 1}"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_26_9vkaov,False,False,False,True,,"Tool count mismatch: agent={'Calendar__delete_calendar_event': 5, 'Calendar__add_calendar_event': 1, 'EmailClientV2__send_email': 2, 'MessagingAppV2__send_message_to_group_conversation': 1}, oracle={'"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_26_cc2cbi,True,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_26_eknnlr,True,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_26_gy13aa,True,False,False,True,,"Tool count mismatch: agent={'Calendar__delete_calendar_event': 4, 'EmailClientV2__send_email': 2}, oracle={'Calendar__delete_calendar_event': 4, 'EmailClientV2__send_email': 1}"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_26_n5mmwn,True,False,False,True,,"Tool count mismatch: agent={'RentAFlat__save_apartment': 3, 'EmailClientV2__reply_to_email': 1, 'CabApp__order_ride': 1}, oracle={'EmailClientV2__reply_to_email': 1, 'RentAFlat__save_apartment': 3}"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_26_n8w97n,False,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_26_r7zcsi,False,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_26_tdpja6,False,False,False,True,,"Tool count mismatch: agent={'MessagingAppV2__send_message': 3, 'Calendar__add_calendar_event': 1}, oracle={'Calendar__add_calendar_event': 1, 'MessagingAppV2__send_message': 2}"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_26_uolg9p,False,False,False,True,,"Tool count mismatch: agent={'Shopping__add_to_cart': 4, 'Shopping__checkout': 2, 'Calendar__add_calendar_event': 1}, oracle={'Shopping__add_to_cart': 4, 'Shopping__checkout': 2}"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_27_2jjsz7,True,False,False,True,,"Tool count mismatch: agent={'Calendar__delete_calendar_event': 7, 'Calendar__add_calendar_event': 1, 'MessagingAppV2__create_group_conversation': 1, 'MessagingAppV2__send_message_to_group_conversation"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_27_2rv897,False,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_27_4jl6ft,True,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_27_60a7ck,False,False,False,True,,"Tool count mismatch: agent={'RentAFlat__save_apartment': 1, 'EmailClientV2__send_email': 1}, oracle={'RentAFlat__save_apartment': 1}"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_27_bs04zk,False,False,False,True,,"Tool count mismatch: agent={'EmailClientV2__send_email': 2, 'Calendar__add_calendar_event': 2}, oracle={}"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_27_d3lzqz,True,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_27_ha25w5,False,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_27_jhn9em,True,False,False,True,,"Tool count mismatch: agent={'MessagingAppV2__create_group_conversation': 1, 'MessagingAppV2__send_message_to_group_conversation': 1, 'Shopping__add_to_cart': 1, 'Shopping__checkout': 1, 'EmailClientV2"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_27_jkqjzz,False,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_27_kr7kv1,True,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_27_ok5npx,False,False,False,False,,Cannot match AgentUserInterface__send_message_to_user (OracleEvent-AGENT-314a4782-23be-4e8e-9100-0282abc351b7): AGENT-AgentUserInterface.send_message_to_user-3d3b77df: user_message_checker (agent_args
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_27_oxzxfa,False,False,False,True,,"Tool count mismatch: agent={'Calendar__delete_calendar_event': 1, 'Calendar__add_calendar_event': 1, 'MessagingAppV2__send_message': 2, 'Shopping__add_to_cart': 1, 'Shopping__checkout': 1}, oracle={'S"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_27_qfedwy,False,False,False,True,,"Tool count mismatch: agent={'RentAFlat__save_apartment': 4, 'MessagingAppV2__send_message': 1}, oracle={'RentAFlat__save_apartment': 4}"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_27_r4vphx,True,False,False,False,,"Tool count mismatch: agent={'EmailClientV2__send_email': 3}, oracle={'EmailClientV2__send_email': 3, 'CabApp__order_ride': 1}"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_27_v98vgp,False,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_27_x018cu,True,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_27_xuxn0i,False,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_27_yeu169,True,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_28_1qub5h,True,False,False,True,,"Tool count mismatch: agent={'CabApp__order_ride': 1, 'Calendar__delete_calendar_event': 1, 'EmailClientV2__send_email': 3, 'Contacts__edit_contact': 1}, oracle={'CabApp__order_ride': 1, 'Calendar__del"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_28_acjxlq,True,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_28_h76yt0,False,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_28_osvd8v,False,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_28_slqn2d,True,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_28_tdhgsp,False,False,False,True,,"Tool count mismatch: agent={'Shopping__add_to_cart': 1, 'Shopping__checkout': 1, 'EmailClientV2__send_email': 1}, oracle={}"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_28_tznndz,True,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_28_vfvksq,False,False,False,True,,"Tool count mismatch: agent={'Calendar__add_calendar_event': 1, 'CabApp__order_ride': 1, 'MessagingAppV2__send_message': 1, 'Calendar__delete_calendar_event': 3}, oracle={'MessagingAppV2__send_message'"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_28_wy635e,True,False,False,False,,Cannot match AgentUserInterface__send_message_to_user (OracleEvent-AGENT-26785639-b6d0-45f6-bd01-3ad7a8cc20a2): AGENT-AgentUserInterface.send_message_to_user-b43d5cf9: user_message_checker (agent_args
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_28_zqomls,False,False,False,True,,"Tool count mismatch: agent={'EmailClientV2__delete_email': 4, 'Contacts__edit_contact': 1, 'MessagingAppV2__send_message_to_group_conversation': 1}, oracle={'EmailClientV2__delete_email': 4, 'Contacts"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_29_0fccbi,False,False,False,True,,"Tool count mismatch: agent={'MessagingAppV2__send_message': 1, 'Calendar__delete_calendar_event': 3, 'Calendar__add_calendar_event': 1, 'CabApp__order_ride': 1}, oracle={'Calendar__delete_calendar_eve"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_29_1tk11t,False,False,False,True,,"Tool count mismatch: agent={'Calendar__add_calendar_event': 1, 'EmailClientV2__send_email': 6, 'Shopping__add_to_cart': 1, 'Shopping__checkout': 1, 'CabApp__order_ride': 1}, oracle={'EmailClientV2__se"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_29_2qw4nk,False,False,False,False,,Cannot match Calendar__add_calendar_event (OracleEvent-AGENT-d4664bda-8bae-4805-8a6a-12a967042493): AGENT-Calendar.add_calendar_event-c3b08f58: datetime_checker:end_datetime (agent=2024-10-18 21:00:00
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_29_4bytkx,True,False,False,True,,"Tool count mismatch: agent={'Calendar__delete_calendar_event': 8, 'EmailClientV2__send_email': 3, 'Calendar__add_calendar_event': 8}, oracle={'Calendar__delete_calendar_event': 8, 'Calendar__add_calen"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_29_5ajk1x,True,False,False,False,,"Tool count mismatch: agent={}, oracle={'EmailClientV2__delete_email': 6}"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_29_7v5wh0,True,False,False,False,,"Tool count mismatch: agent={}, oracle={'Calendar__delete_calendar_event': 4}"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_29_b6v3y8,False,False,False,True,,"Tool count mismatch: agent={'RentAFlat__save_apartment': 1, 'EmailClientV2__send_email': 3, 'Calendar__add_calendar_event': 1}, oracle={'EmailClientV2__send_email': 3, 'RentAFlat__save_apartment': 1}"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_29_cpo29z,True,False,False,True,,"Tool count mismatch: agent={'RentAFlat__save_apartment': 6, 'Calendar__add_calendar_event': 1, 'MessagingAppV2__send_message': 3, 'EmailClientV2__send_email': 1}, oracle={'RentAFlat__save_apartment': "
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_29_dpbafp,False,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_29_ja2axd,False,False,False,True,,"Tool count mismatch: agent={'Calendar__add_calendar_event': 1, 'EmailClientV2__send_email': 6, 'Shopping__add_to_cart': 1, 'Shopping__checkout': 1, 'CabApp__order_ride': 1}, oracle={'EmailClientV2__se"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_29_kao12j,True,False,False,True,,"Tool count mismatch: agent={'Contacts__add_new_contact': 1, 'MessagingAppV2__send_message': 1, 'Calendar__delete_calendar_event': 3, 'Shopping__add_to_cart': 1, 'Shopping__checkout': 1}, oracle={'Cale"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_29_lxe62a,False,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_29_m1momj,True,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_29_qrxrry,False,False,False,False,,Cannot match AgentUserInterface__send_message_to_user (OracleEvent-AGENT-64bb3b64-2f95-44b6-9a5d-fdb0cfc036ad): AGENT-AgentUserInterface.send_message_to_user-57dacee2: user_message_checker (agent_args
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_29_r4pl5k,False,False,False,True,,"Tool count mismatch: agent={'Calendar__add_calendar_event': 1, 'MessagingAppV2__send_message': 1, 'CabApp__order_ride': 1}, oracle={'Calendar__add_calendar_event': 1, 'MessagingAppV2__send_message': 1"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_29_r7ssas,False,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_29_rkdpfj,False,False,False,True,,"Tool count mismatch: agent={'RentAFlat__save_apartment': 3, 'Calendar__add_calendar_event': 3, 'EmailClientV2__send_email': 2}, oracle={'Calendar__add_calendar_event': 2, 'RentAFlat__save_apartment': "
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_29_xcv49b,True,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_29_xinlfl,False,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_29_zkkak5,True,False,False,False,,Cannot match AgentUserInterface__send_message_to_user (OracleEvent-AGENT-86f50df5-7f3a-41e2-b3bd-7c7c46e53ae0): AGENT-AgentUserInterface.send_message_to_user-d170647c: user_message_checker (agent_args
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_30_3aui6g,True,False,False,True,,"Tool count mismatch: agent={'RentAFlat__save_apartment': 7, 'Calendar__add_calendar_event': 1, 'EmailClientV2__send_email': 1}, oracle={'RentAFlat__save_apartment': 7, 'EmailClientV2__send_email': 1}"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_30_4rdnve,False,False,False,True,,"Tool count mismatch: agent={'Shopping__add_to_cart': 4, 'Shopping__checkout': 1, 'EmailClientV2__send_email': 2, 'MessagingAppV2__send_message': 1, 'MessagingAppV2__send_message_to_group_conversation'"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_30_5wowbx,False,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_30_b0us1c,True,False,False,False,,"Cannot match MessagingAppV2__send_message (OracleEvent-AGENT-fc6f19e0-74dd-4824-beb3-134d52fca8a3): AGENT-MessagingAppV2.send_message-a0e46aa1: eq_checker:user_id (agent=+491578543210, oracle=+4413112"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_30_dc87x4,False,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_30_g87j39,True,False,False,True,,"Tool count mismatch: agent={'MessagingAppV2__send_message': 1, 'EmailClientV2__send_email': 1, 'EmailClientV2__move_email': 3, 'Contacts__edit_contact': 1}, oracle={'MessagingAppV2__send_message': 1, "
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_30_he1gwa,False,False,False,True,,"Tool count mismatch: agent={'RentAFlat__remove_saved_apartment': 1, 'Calendar__delete_calendar_event': 1, 'Calendar__add_calendar_event': 1, 'EmailClientV2__send_email': 2}, oracle={'Calendar__add_cal"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_30_nto3fn,True,False,False,True,,"Tool count mismatch: agent={'RentAFlat__save_apartment': 3, 'CabApp__order_ride': 1, 'EmailClientV2__send_email': 1, 'Calendar__delete_calendar_event': 1}, oracle={'RentAFlat__save_apartment': 3, 'Ema"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_30_o44kwk,True,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_30_r58jxk,False,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_30_r721m3,True,False,True,False,,
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_30_s6uzrj,False,False,False,True,,"Tool count mismatch: agent={'Calendar__delete_calendar_event': 6, 'Calendar__add_calendar_event': 5, 'Shopping__add_to_cart': 1, 'Shopping__checkout': 1, 'MessagingAppV2__create_group_conversation': 1"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_30_ylmzwx,True,False,False,True,,"Tool count mismatch: agent={'Calendar__delete_calendar_event': 1, 'Calendar__add_calendar_event': 1, 'Shopping__add_to_cart': 5, 'Shopping__checkout': 1}, oracle={'Shopping__add_to_cart': 3, 'Calendar"
+10a_ambiguity_deepseek,original,ambiguity,scenario_universe_30_yvny18,False,False,True,False,,
+10b_execution_deepseek,original,execution,scenario_universe_21_2m6akl,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_21_3c1x8i,False,False,False,,,Cannot match EmailClientV2__send_email (OracleEvent-AGENT-592ad420-57f0-4442-80ad-5937a3bad91c): AGENT-EmailClientV2.send_email-d9db29fc: unordered_list_checker:recipients (agent=['linnea.astrom@gaia2
+10b_execution_deepseek,original,execution,scenario_universe_21_4r8xq0,False,False,False,,,"Tool count mismatch: agent={'MessagingAppV2__remove_participant_from_conversation': 4, 'EmailClientV2__delete_email': 2, 'RentAFlat__remove_saved_apartment': 1, 'Contacts__delete_contact': 1}, oracle="
+10b_execution_deepseek,original,execution,scenario_universe_21_7fvkoi,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_21_8aeqbz,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_21_9s0qxq,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_21_axgfp0,False,False,False,,,"Tool count mismatch: agent={'RentAFlat__save_apartment': 3, 'Shopping__add_to_cart': 1, 'Shopping__checkout': 1, 'Calendar__add_calendar_event': 1, 'Calendar__delete_calendar_event': 1, 'EmailClientV2"
+10b_execution_deepseek,original,execution,scenario_universe_21_d1ip53,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_21_gp0nd0,True,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_21_jywgsj,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_21_nlq0de,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_21_pocluh,True,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_21_uig9ac,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_21_vqsr28,False,False,False,,,"Tool count mismatch: agent={'Shopping__add_to_cart': 9, 'Shopping__checkout': 2, 'Shopping__cancel_order': 1, 'MessagingAppV2__create_group_conversation': 2, 'MessagingAppV2__send_message_to_group_con"
+10b_execution_deepseek,original,execution,scenario_universe_21_ztxch4,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_22_0byq1g,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_22_2oh10h,True,False,False,,,Cannot match EmailClientV2__send_email (OracleEvent-AGENT-cf2cc474-b3ff-42c0-a538-991d8b921642): AGENT-EmailClientV2.send_email-7b553d48: signature_checker (agent_args={'subject': 'Dallas Apartment Re
+10b_execution_deepseek,original,execution,scenario_universe_22_2tof7f,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_22_3m9r7l,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_22_3sml2v,True,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_22_4ye6nx,True,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_22_8gf4y6,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_22_9l1fgy,False,False,False,,,"Tool count mismatch: agent={'EmailClientV2__send_email': 4, 'Calendar__delete_calendar_event': 4, 'Calendar__add_calendar_event': 1}, oracle={'Calendar__delete_calendar_event': 4, 'EmailClientV2__send"
+10b_execution_deepseek,original,execution,scenario_universe_22_c6r2er,True,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_22_evx14u,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_22_ge3drh,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_22_kb5ah9,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_22_kj0h75,True,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_22_lz5pnt,False,False,False,,,"Tool count mismatch: agent={'SandboxLocalFileSystem__makedirs': 1, 'SandboxLocalFileSystem__mv': 1, 'EmailClientV2__send_email': 1, 'Contacts__edit_contact': 1, 'RentAFlat__remove_saved_apartment': 2,"
+10b_execution_deepseek,original,execution,scenario_universe_22_m0ahbo,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_22_ottdy5,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_22_rxs5sd,True,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_22_slbnzx,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_22_tiuesu,False,False,False,,,"Tool count mismatch: agent={'RentAFlat__remove_saved_apartment': 1, 'EmailClientV2__send_email': 2}, oracle={'EmailClientV2__send_email': 5, 'RentAFlat__remove_saved_apartment': 1}"
+10b_execution_deepseek,original,execution,scenario_universe_22_tltscm,False,False,False,,,"Tool count mismatch: agent={'RentAFlat__save_apartment': 1, 'RentAFlat__remove_saved_apartment': 3, 'EmailClientV2__send_email': 2, 'Shopping__add_to_cart': 1, 'Shopping__checkout': 1, 'CabApp__order_"
+10b_execution_deepseek,original,execution,scenario_universe_22_udb9rc,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_22_vlccem,True,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_22_wout7h,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_22_zrrtff,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_23_0vl58w,False,False,False,,,Cannot match EmailClientV2__send_email (OracleEvent-AGENT-8ac5da3e-05f4-446b-916c-e0414c8bdcbf): AGENT-EmailClientV2.send_email-f2c95054: unordered_list_checker:recipients (agent=['aino.nieminen@stude
+10b_execution_deepseek,original,execution,scenario_universe_23_1hu54e,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_23_2gyolt,False,False,False,,,"Cannot match EmailClientV2__send_email (OracleEvent-AGENT-f99fd8bd-95e4-4470-a196-18ba46b079f6): AGENT-EmailClientV2.send_email-927b3218: email_checker (agent_args={'subject': 'Meetings cancelled', 'c"
+10b_execution_deepseek,original,execution,scenario_universe_23_5r4w6u,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_23_7eczna,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_23_aw8qv9,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_23_cu9xct,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_23_jd9bhl,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_23_mt9sh6,True,False,False,,,"Tool count mismatch: agent={'EmailClientV2__send_email': 6, 'Calendar__add_calendar_event': 2}, oracle={'EmailClientV2__send_email': 5, 'Calendar__add_calendar_event': 2}"
+10b_execution_deepseek,original,execution,scenario_universe_23_otrfvy,True,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_23_wuh0b7,False,False,False,,,"Tool count mismatch: agent={'Calendar__delete_calendar_event': 4, 'MessagingAppV2__send_message': 1}, oracle={'Calendar__delete_calendar_event': 4, 'MessagingAppV2__send_message': 3}"
+10b_execution_deepseek,original,execution,scenario_universe_23_xscbpx,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_23_znjy4f,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_24_1jo24x,True,False,False,,,"Tool count mismatch: agent={'Shopping__add_to_cart': 3, 'Shopping__checkout': 1, 'Calendar__add_calendar_event': 1, 'MessagingAppV2__send_message': 17}, oracle={'Shopping__add_to_cart': 3, 'MessagingA"
+10b_execution_deepseek,original,execution,scenario_universe_24_1njo23,False,False,False,,,Cannot match MessagingAppV2__create_group_conversation (OracleEvent-AGENT-12b027c2-916b-478b-bfee-8c934014c243): AGENT-MessagingAppV2.create_group_conversation-2087012b: unordered_list_checker:user_id
+10b_execution_deepseek,original,execution,scenario_universe_24_3rlqyh,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_24_4fa0vq,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_24_6b5qhi,True,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_24_6bgddr,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_24_bfizso,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_24_f47frx,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_24_hv40ld,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_24_lr8en2,True,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_24_pj0xfi,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_24_revn06,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_24_tg3h3h,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_24_tpfpk7,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_24_tvu4d3,True,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_24_yhq1o9,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_24_yq2vhz,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_25_09ckli,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_25_27a695,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_25_3pe9jj,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_25_4d7lcj,False,False,False,,,"Tool count mismatch: agent={'SandboxLocalFileSystem__makedirs': 1, 'SandboxLocalFileSystem__mv': 6, 'MessagingAppV2__create_group_conversation': 1, 'MessagingAppV2__send_message_to_group_conversation'"
+10b_execution_deepseek,original,execution,scenario_universe_25_4ht1zl,True,False,False,,,"Tool count mismatch: agent={'EmailClientV2__delete_email': 2, 'EmailClientV2__reply_to_email': 1, 'Shopping__add_to_cart': 2, 'Shopping__checkout': 1}, oracle={'EmailClientV2__move_email': 2, 'EmailCl"
+10b_execution_deepseek,original,execution,scenario_universe_25_4l3y7p,True,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_25_5bxgm1,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_25_642cr1,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_25_8nhsrv,True,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_25_ar01vc,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_25_g9rry6,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_25_lbl7ya,False,False,False,,,"Tool count mismatch: agent={'SandboxLocalFileSystem__mkdir': 1, 'RentAFlat__save_apartment': 1, 'RentAFlat__remove_saved_apartment': 1, 'Shopping__add_to_cart': 1, 'Contacts__delete_contact': 1, 'Cale"
+10b_execution_deepseek,original,execution,scenario_universe_25_p44znw,True,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_25_qlrsjj,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_25_tsrahx,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_25_vetd7u,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_25_vu49cu,True,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_25_w02po4,True,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_25_wdqp0w,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_25_wua7gw,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_25_xrkc29,False,False,False,,,"Cannot match EmailClientV2__send_email (OracleEvent-AGENT-f501d4fa-fbd2-4140-bb3e-6f70a78fb11c): AGENT-EmailClientV2.send_email-685b5cd1: email_checker (agent_args={'subject': 'Items Ordered', 'conten"
+10b_execution_deepseek,original,execution,scenario_universe_25_y5qodc,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_25_ys3x1t,False,False,False,,,"Cannot match MessagingAppV2__send_message (OracleEvent-AGENT-173eea92-440e-4856-84df-f2cd53ee174a): AGENT-MessagingAppV2.send_message-f49f6159: message_checker (agent_args={'content': ""Hi Elara, I cam"
+10b_execution_deepseek,original,execution,scenario_universe_25_zp7eup,False,False,False,,,Cannot match EmailClientV2__send_email (OracleEvent-AGENT-1827bfae-771e-4202-8345-39799b6d350e): AGENT-EmailClientV2.send_email-8f2eb009: email_checker (agent_args={'subject': 'Contact Cleanup – Delet
+10b_execution_deepseek,original,execution,scenario_universe_26_135a24,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_26_1ok8eo,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_26_2rfu2o,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_26_4cyvjp,True,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_26_4r9exm,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_26_56p876,True,False,False,,,"Tool count mismatch: agent={'RentAFlat__remove_saved_apartment': 10}, oracle={'RentAFlat__remove_saved_apartment': 11}"
+10b_execution_deepseek,original,execution,scenario_universe_26_oqrczt,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_26_t89fwm,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_26_ux3yly,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_26_x33451,False,False,False,,,Cannot match Contacts__delete_contact (OracleEvent-AGENT-e19a0921-d5aa-4d9e-9e96-a4ff39e52f80): AGENT-Contacts.delete_contact-16bedf86: causality violation (parent OracleEvent-AGENT-42d6ac90-5ab7-41f3
+10b_execution_deepseek,original,execution,scenario_universe_26_zefng2,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_27_0zl6k5,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_27_139jao,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_27_2ip065,False,False,False,,,"Tool count mismatch: agent={'Shopping__add_to_cart': 1, 'Shopping__checkout': 1, 'Calendar__add_calendar_event': 1, 'MessagingAppV2__send_message_to_group_conversation': 5, 'MessagingAppV2__send_messa"
+10b_execution_deepseek,original,execution,scenario_universe_27_5qtvsl,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_27_9aqrhh,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_27_az0f22,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_27_blwok9,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_27_de3nqp,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_27_fcvhoh,True,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_27_kbbx9o,True,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_27_kmkli4,True,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_27_sqvrhj,False,False,False,,,Cannot match MessagingAppV2__create_group_conversation (OracleEvent-AGENT-7c3985c8-8584-4df9-9f54-410c5f12c94e): AGENT-MessagingAppV2.create_group_conversation-8ff54628: unordered_list_checker:user_id
+10b_execution_deepseek,original,execution,scenario_universe_27_t914u5,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_27_tlhhru,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_27_v5fnct,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_27_veaotp,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_27_w4an52,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_28_238kfx,True,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_28_5sca8a,False,False,False,,,"Tool count mismatch: agent={'RentAFlat__save_apartment': 4, 'EmailClientV2__send_email': 4}, oracle={'EmailClientV2__send_email': 3, 'RentAFlat__save_apartment': 4}"
+10b_execution_deepseek,original,execution,scenario_universe_28_74pys2,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_28_crpekc,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_28_e3yyyp,True,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_28_gusgfk,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_28_hrwrtm,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_28_le3b68,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_28_mzxuku,True,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_28_nfnpyk,True,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_28_qhgn40,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_28_rls8wx,True,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_28_rn3lup,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_28_rvxaph,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_28_s6t6dm,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_29_3gny21,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_29_50r62a,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_29_88gncs,True,False,False,,,"Tool count mismatch: agent={'Calendar__delete_calendar_event': 1, 'Calendar__add_calendar_event': 1, 'MessagingAppV2__create_group_conversation': 1, 'MessagingAppV2__add_participant_to_conversation': "
+10b_execution_deepseek,original,execution,scenario_universe_29_8hgfug,True,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_29_d52ytz,True,False,False,,,"Tool count mismatch: agent={'EmailClientV2__reply_to_email': 12, 'EmailClientV2__delete_email': 3}, oracle={'EmailClientV2__reply_to_email': 11, 'EmailClientV2__delete_email': 3}"
+10b_execution_deepseek,original,execution,scenario_universe_29_ejfhdw,True,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_29_hurfiq,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_29_jvohtk,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_29_m0zl89,True,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_29_o8vxs3,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_29_or41pw,True,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_29_qodb8j,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_29_y8x3mf,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_30_5u30vw,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_30_6nfsem,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_30_8oe4dk,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_30_997a5b,True,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_30_awsceb,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_30_eqnre0,True,False,False,,,"Tool count mismatch: agent={'Calendar__add_calendar_event': 2, 'Calendar__delete_calendar_event': 1, 'EmailClientV2__send_email': 4, 'CabApp__order_ride': 1}, oracle={'Calendar__add_calendar_event': 1"
+10b_execution_deepseek,original,execution,scenario_universe_30_j7xcfc,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_30_mx4mzo,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_30_mxl1u0,False,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_30_r2ulni,True,False,True,,,
+10b_execution_deepseek,original,execution,scenario_universe_30_rfyr4w,False,False,True,,,
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_21_1juxxq,True,False,True,False,,
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_21_2edv2p,True,False,True,False,,
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_21_73o3ij,True,False,True,False,,
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_21_7cps5u,True,False,True,False,,
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_21_a6n7ro,True,False,True,False,,
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_21_b647lw,True,False,False,True,,"Tool count mismatch: agent={'Calendar__delete_calendar_event': 2, 'Calendar__add_calendar_event': 2}, oracle={'Calendar__delete_calendar_event': 2}"
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_21_pbnqu9,True,False,False,True,,"Tool count mismatch: agent={'CabApp__order_ride': 1, 'Contacts__delete_contact': 1, 'Shopping__add_to_cart': 2, 'Calendar__add_calendar_event': 1, 'Shopping__checkout': 1, 'EmailClientV2__reply_to_ema"
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_21_wf7z28,True,False,True,False,,
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_21_y3l4za,True,False,True,False,,
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_22_7lo2ky,True,False,True,False,,
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_22_cw7cl1,True,False,True,False,,
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_22_dwnfdh,True,False,True,False,,
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_22_hnbnsi,True,False,True,False,,
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_22_meju08,True,False,False,True,,"Tool count mismatch: agent={'Calendar__add_calendar_event': 2, 'Calendar__delete_calendar_event': 1, 'EmailClientV2__send_email': 1, 'Shopping__add_to_cart': 1, 'Shopping__checkout': 1}, oracle={'Cale"
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_23_67tp4z,True,False,True,False,,
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_23_arffaf,True,False,False,True,,"Tool count mismatch: agent={'Calendar__add_calendar_event': 2, 'MessagingAppV2__create_group_conversation': 1, 'MessagingAppV2__send_message_to_group_conversation': 1, 'CabApp__order_ride': 1}, oracle"
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_23_iy0pbp,True,False,False,False,,Cannot match AgentUserInterface__send_message_to_user (OracleEvent-AGENT-02b24ad9-77c5-43c6-9a6b-055ac3c9c006): AGENT-AgentUserInterface.send_message_to_user-9ebb82b6: user_message_checker (agent_args
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_24_eyzv2c,True,False,True,False,,
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_24_ifzh2z,True,False,False,True,,"Tool count mismatch: agent={'Calendar__add_calendar_event': 2, 'Calendar__delete_calendar_event': 2, 'MessagingAppV2__send_message': 1, 'EmailClientV2__reply_to_email': 3}, oracle={'MessagingAppV2__se"
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_24_mq0qtw,True,False,False,True,,"Tool count mismatch: agent={'Shopping__add_to_cart': 4, 'Shopping__checkout': 1}, oracle={'Shopping__add_to_cart': 4}"
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_24_reec2f,True,False,True,False,,
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_24_tbc7ew,True,False,True,False,,
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_25_4v0rsg,True,False,True,False,,
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_25_8ygwb8,True,False,True,False,,
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_25_dpx742,True,False,True,False,,
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_25_eeblgo,True,False,True,False,,
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_25_mnwbk8,True,False,True,False,,
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_25_ndl2ou,True,False,False,True,,"Tool count mismatch: agent={'EmailClientV2__delete_email': 2, 'Contacts__delete_contact': 2, 'EmailClientV2__send_email': 1}, oracle={}"
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_26_cc2cbi,True,False,True,False,,
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_26_eknnlr,True,False,True,False,,
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_26_gy13aa,True,False,True,False,,
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_26_n5mmwn,True,False,True,False,,
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_27_2jjsz7,True,False,False,True,,"Tool count mismatch: agent={'Calendar__delete_calendar_event': 7, 'Calendar__add_calendar_event': 1, 'MessagingAppV2__create_group_conversation': 1, 'MessagingAppV2__send_message_to_group_conversation"
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_27_4jl6ft,True,False,True,False,,
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_27_d3lzqz,True,False,True,False,,
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_27_jhn9em,True,False,False,True,,"Tool count mismatch: agent={'MessagingAppV2__create_group_conversation': 1, 'MessagingAppV2__send_message_to_group_conversation': 1, 'EmailClientV2__send_email': 1, 'Shopping__add_to_cart': 1, 'Shoppi"
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_27_kr7kv1,True,False,True,False,,
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_27_r4vphx,True,False,False,False,,"Tool count mismatch: agent={'EmailClientV2__send_email': 3}, oracle={'EmailClientV2__send_email': 3, 'CabApp__order_ride': 1}"
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_27_x018cu,True,False,True,False,,
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_27_yeu169,True,False,True,False,,
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_28_1qub5h,True,False,True,False,,
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_28_acjxlq,True,False,True,False,,
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_28_slqn2d,True,False,False,False,,Cannot match EmailClientV2__send_email (OracleEvent-AGENT-27356f5e-4064-4590-80ae-34b577e94608): AGENT-EmailClientV2.send_email-bfca4595: unordered_list_checker:recipients (agent=['astrid.jensen@gaia2
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_28_tznndz,True,False,True,False,,
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_28_wy635e,True,False,False,False,,Cannot match EmailClientV2__send_email (OracleEvent-AGENT-2c9361e9-1cac-453d-b8b7-5d21f0628afb): AGENT-EmailClientV2.send_email-926203ff: signature_checker (agent_args={'subject': 'Christmas 2020 – sw
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_29_4bytkx,True,False,False,False,,"Tool count mismatch: agent={'Calendar__delete_calendar_event': 8, 'EmailClientV2__send_email': 3}, oracle={'Calendar__delete_calendar_event': 8, 'Calendar__add_calendar_event': 3, 'EmailClientV2__send"
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_29_5ajk1x,True,False,False,False,,"Tool count mismatch: agent={'EmailClientV2__delete_email': 5}, oracle={'EmailClientV2__delete_email': 6}"
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_29_7v5wh0,True,False,True,False,,
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_29_cpo29z,True,False,True,False,,
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_29_kao12j,True,False,False,True,,"Tool count mismatch: agent={'Contacts__add_new_contact': 1, 'MessagingAppV2__send_message': 1, 'Calendar__delete_calendar_event': 3, 'Shopping__add_to_cart': 1}, oracle={'Calendar__delete_calendar_eve"
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_29_m1momj,True,False,True,False,,
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_29_xcv49b,True,False,True,False,,
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_29_zkkak5,True,False,True,False,,
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_30_3aui6g,True,False,False,True,,"Tool count mismatch: agent={'RentAFlat__save_apartment': 7, 'EmailClientV2__send_email': 1, 'Calendar__add_calendar_event': 7}, oracle={'RentAFlat__save_apartment': 7, 'EmailClientV2__send_email': 1}"
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_30_b0us1c,True,False,True,False,,
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_30_g87j39,True,False,False,True,,"Tool count mismatch: agent={'MessagingAppV2__send_message': 1, 'EmailClientV2__send_email': 1, 'EmailClientV2__delete_email': 3}, oracle={'EmailClientV2__move_email': 2, 'MessagingAppV2__send_message'"
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_30_nto3fn,True,False,False,True,,"Tool count mismatch: agent={'RentAFlat__save_apartment': 3, 'CabApp__order_ride': 1, 'Calendar__delete_calendar_event': 1, 'EmailClientV2__send_email': 1}, oracle={'Calendar__delete_calendar_event': 1"
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_30_o44kwk,True,False,True,False,,
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_30_r721m3,True,False,True,False,,
+20a_prompt_deepseek,pattern_explicit,ambiguity,scenario_universe_30_ylmzwx,True,False,True,False,,
+20a_prompt_deepseek,pattern_explicit,execution,scenario_universe_21_gp0nd0,True,False,True,,,
+20a_prompt_deepseek,pattern_explicit,execution,scenario_universe_21_pocluh,True,False,False,,,"Tool count mismatch: agent={'RentAFlat__save_apartment': 1, 'MessagingAppV2__send_message_to_group_conversation': 5, 'Shopping__add_to_cart': 1, 'Shopping__checkout': 1}, oracle={'RentAFlat__save_apar"
+20a_prompt_deepseek,pattern_explicit,execution,scenario_universe_22_2oh10h,True,False,True,,,
+20a_prompt_deepseek,pattern_explicit,execution,scenario_universe_22_3sml2v,True,False,True,,,
+20a_prompt_deepseek,pattern_explicit,execution,scenario_universe_22_4ye6nx,True,False,True,,,
+20a_prompt_deepseek,pattern_explicit,execution,scenario_universe_22_c6r2er,True,False,True,,,
+20a_prompt_deepseek,pattern_explicit,execution,scenario_universe_22_kj0h75,True,False,True,,,
+20a_prompt_deepseek,pattern_explicit,execution,scenario_universe_22_rxs5sd,True,False,True,,,
+20a_prompt_deepseek,pattern_explicit,execution,scenario_universe_22_vlccem,True,False,True,,,
+20a_prompt_deepseek,pattern_explicit,execution,scenario_universe_23_mt9sh6,True,False,False,,,"Tool count mismatch: agent={'EmailClientV2__send_email': 6, 'Calendar__add_calendar_event': 2}, oracle={'EmailClientV2__send_email': 5, 'Calendar__add_calendar_event': 2}"
+20a_prompt_deepseek,pattern_explicit,execution,scenario_universe_23_otrfvy,True,False,True,,,
+20a_prompt_deepseek,pattern_explicit,execution,scenario_universe_24_1jo24x,True,False,False,,,"Tool count mismatch: agent={'Calendar__add_calendar_event': 1, 'MessagingAppV2__send_message': 17, 'Shopping__add_to_cart': 3, 'Shopping__checkout': 1}, oracle={'Shopping__add_to_cart': 3, 'MessagingA"
+20a_prompt_deepseek,pattern_explicit,execution,scenario_universe_24_6b5qhi,True,False,True,,,
+20a_prompt_deepseek,pattern_explicit,execution,scenario_universe_24_lr8en2,True,False,True,,,
+20a_prompt_deepseek,pattern_explicit,execution,scenario_universe_24_tvu4d3,True,False,True,,,
+20a_prompt_deepseek,pattern_explicit,execution,scenario_universe_25_4ht1zl,True,False,False,,,"Tool count mismatch: agent={'EmailClientV2__delete_email': 2, 'EmailClientV2__reply_to_email': 1, 'Shopping__add_to_cart': 2, 'Shopping__checkout': 1}, oracle={'EmailClientV2__move_email': 2, 'Shoppin"
+20a_prompt_deepseek,pattern_explicit,execution,scenario_universe_25_4l3y7p,True,False,True,,,
+20a_prompt_deepseek,pattern_explicit,execution,scenario_universe_25_8nhsrv,True,False,True,,,
+20a_prompt_deepseek,pattern_explicit,execution,scenario_universe_25_p44znw,True,False,True,,,
+20a_prompt_deepseek,pattern_explicit,execution,scenario_universe_25_vu49cu,True,False,True,,,
+20a_prompt_deepseek,pattern_explicit,execution,scenario_universe_25_w02po4,True,False,True,,,
+20a_prompt_deepseek,pattern_explicit,execution,scenario_universe_26_4cyvjp,True,False,False,,,"Tool count mismatch: agent={'Calendar__add_calendar_event': 1, 'EmailClientV2__send_email': 3, 'Calendar__delete_calendar_event': 2}, oracle={'Calendar__delete_calendar_event': 2, 'Calendar__add_calen"
+20a_prompt_deepseek,pattern_explicit,execution,scenario_universe_26_56p876,True,False,False,,,"Tool count mismatch: agent={'RentAFlat__remove_saved_apartment': 10}, oracle={'RentAFlat__remove_saved_apartment': 11}"
+20a_prompt_deepseek,pattern_explicit,execution,scenario_universe_27_fcvhoh,True,False,True,,,
+20a_prompt_deepseek,pattern_explicit,execution,scenario_universe_27_kbbx9o,True,False,False,,,"Tool count mismatch: agent={'CabApp__order_ride': 1, 'MessagingAppV2__send_message': 9, 'Calendar__add_calendar_event': 1}, oracle={'CabApp__order_ride': 1, 'MessagingAppV2__send_message': 4, 'Calenda"
+20a_prompt_deepseek,pattern_explicit,execution,scenario_universe_27_kmkli4,True,False,True,,,
+20a_prompt_deepseek,pattern_explicit,execution,scenario_universe_28_238kfx,True,False,True,,,
+20a_prompt_deepseek,pattern_explicit,execution,scenario_universe_28_e3yyyp,True,False,True,,,
+20a_prompt_deepseek,pattern_explicit,execution,scenario_universe_28_mzxuku,True,False,True,,,
+20a_prompt_deepseek,pattern_explicit,execution,scenario_universe_28_nfnpyk,True,False,True,,,
+20a_prompt_deepseek,pattern_explicit,execution,scenario_universe_28_rls8wx,True,False,True,,,
+20a_prompt_deepseek,pattern_explicit,execution,scenario_universe_29_88gncs,True,False,True,,,
+20a_prompt_deepseek,pattern_explicit,execution,scenario_universe_29_8hgfug,True,False,True,,,
+20a_prompt_deepseek,pattern_explicit,execution,scenario_universe_29_d52ytz,True,False,True,,,
+20a_prompt_deepseek,pattern_explicit,execution,scenario_universe_29_ejfhdw,True,False,True,,,
+20a_prompt_deepseek,pattern_explicit,execution,scenario_universe_29_m0zl89,True,False,True,,,
+20a_prompt_deepseek,pattern_explicit,execution,scenario_universe_29_or41pw,True,False,True,,,
+20a_prompt_deepseek,pattern_explicit,execution,scenario_universe_30_997a5b,True,False,True,,,
+20a_prompt_deepseek,pattern_explicit,execution,scenario_universe_30_eqnre0,True,False,True,,,
+20a_prompt_deepseek,pattern_explicit,execution,scenario_universe_30_r2ulni,True,False,True,,,
+21_prompt_generic_heldout,generic,ambiguity,scenario_universe_21_3ixhl6,False,True,True,False,no,
+21_prompt_generic_heldout,generic,ambiguity,scenario_universe_21_3sr7jy,False,True,False,True,yes,"Tool count mismatch: agent={'Contacts__edit_contact': 7, 'Shopping__add_to_cart': 1, 'Shopping__checkout': 1}, oracle={'Contacts__edit_contact': 7}"
+21_prompt_generic_heldout,generic,ambiguity,scenario_universe_21_4hfih3,False,True,True,False,no,
+21_prompt_generic_heldout,generic,ambiguity,scenario_universe_21_6oluaj,False,True,False,True,yes,"Tool count mismatch: agent={'EmailClientV2__send_email': 1, 'Calendar__add_calendar_event': 1, 'MessagingAppV2__create_group_conversation': 1, 'MessagingAppV2__send_message_to_group_conversation': 1, "
+21_prompt_generic_heldout,generic,ambiguity,scenario_universe_21_isnnos,False,True,True,False,no,
+21_prompt_generic_heldout,generic,ambiguity,scenario_universe_21_rxk1cz,False,True,False,True,yes,"Tool count mismatch: agent={'Shopping__add_to_cart': 1, 'Shopping__checkout': 1, 'RentAFlat__save_apartment': 1, 'EmailClientV2__delete_email': 2, 'Contacts__add_new_contact': 1}, oracle={'Shopping__a"
+21_prompt_generic_heldout,generic,ambiguity,scenario_universe_21_t3fztm,False,True,True,False,no,
+21_prompt_generic_heldout,generic,ambiguity,scenario_universe_21_tlc249,False,True,True,False,no,
+21_prompt_generic_heldout,generic,ambiguity,scenario_universe_21_uq7b9f,False,True,False,True,yes,"Tool count mismatch: agent={'Calendar__add_calendar_event': 1, 'CabApp__order_ride': 1, 'MessagingAppV2__send_message': 1}, oracle={'MessagingAppV2__send_message': 1, 'Calendar__add_calendar_event': 1"
+21_prompt_generic_heldout,generic,ambiguity,scenario_universe_22_0fgidr,False,True,True,False,no,
+21_prompt_generic_heldout,generic,ambiguity,scenario_universe_22_1nwlhy,False,True,True,False,no,
+21_prompt_generic_heldout,generic,ambiguity,scenario_universe_22_84d6ju,False,True,False,True,yes,"Tool count mismatch: agent={'Calendar__delete_calendar_event': 4, 'Calendar__add_calendar_event': 1, 'MessagingAppV2__create_group_conversation': 1, 'MessagingAppV2__send_message_to_group_conversation"
+21_prompt_generic_heldout,generic,ambiguity,scenario_universe_22_exxdvx,False,True,False,True,yes,"Tool count mismatch: agent={'EmailClientV2__send_email': 2, 'Calendar__add_calendar_event': 2}, oracle={'Calendar__add_calendar_event': 1, 'EmailClientV2__send_email': 1, 'Calendar__delete_calendar_ev"
+21_prompt_generic_heldout,generic,ambiguity,scenario_universe_22_gck0s0,False,True,False,False,no,Cannot match AgentUserInterface__send_message_to_user (OracleEvent-AGENT-a2992011-fef2-4089-9c1e-27d7c113681a): AGENT-AgentUserInterface.send_message_to_user-8bd114ea: user_message_checker (agent_args
+21_prompt_generic_heldout,generic,ambiguity,scenario_universe_22_h97rf8,False,True,True,False,no,
+21_prompt_generic_heldout,generic,ambiguity,scenario_universe_22_oxdkdo,False,True,False,True,yes,"Tool count mismatch: agent={'Calendar__delete_calendar_event': 5, 'EmailClientV2__send_email': 1, 'MessagingAppV2__send_message': 1, 'CabApp__order_ride': 1}, oracle={'Calendar__delete_calendar_event'"
+21_prompt_generic_heldout,generic,ambiguity,scenario_universe_22_s4bqv7,False,True,False,True,yes,"Tool count mismatch: agent={'Calendar__add_calendar_event': 2, 'Calendar__delete_calendar_event': 1, 'EmailClientV2__send_email': 3, 'RentAFlat__remove_saved_apartment': 3}, oracle={'RentAFlat__remove"
+21_prompt_generic_heldout,generic,ambiguity,scenario_universe_22_smwxaa,False,True,True,False,no,
+21_prompt_generic_heldout,generic,ambiguity,scenario_universe_22_zmg4mb,False,True,False,True,no,"Tool count mismatch: agent={'SandboxLocalFileSystem__makedirs': 1, 'SandboxLocalFileSystem__mv': 4}, oracle={'SandboxLocalFileSystem__mkdir': 1, 'SandboxLocalFileSystem__mv': 4}"
+21_prompt_generic_heldout,generic,ambiguity,scenario_universe_23_wzbmxj,False,True,True,False,no,
+21_prompt_generic_heldout,generic,ambiguity,scenario_universe_23_x1uuwg,False,True,True,False,no,
+21_prompt_generic_heldout,generic,ambiguity,scenario_universe_24_1ybabs,False,True,True,False,no,
+21_prompt_generic_heldout,generic,ambiguity,scenario_universe_24_ozc89a,False,True,False,True,yes,"Tool count mismatch: agent={'Calendar__add_calendar_event': 1, 'EmailClientV2__send_email': 1, 'EmailClientV2__reply_to_email': 1}, oracle={'EmailClientV2__send_email': 1, 'Calendar__add_calendar_even"
+21_prompt_generic_heldout,generic,ambiguity,scenario_universe_24_pb6lig,False,True,False,True,yes,"Tool count mismatch: agent={'Calendar__add_calendar_event': 1, 'MessagingAppV2__create_group_conversation': 1, 'MessagingAppV2__send_message_to_group_conversation': 1, 'Shopping__add_to_cart': 1, 'Sho"
+21_prompt_generic_heldout,generic,ambiguity,scenario_universe_25_1zr9lt,False,True,False,True,no,"Tool count mismatch: agent={'Contacts__add_new_contact': 3, 'EmailClientV2__send_email': 3, 'EmailClientV2__delete_email': 2}, oracle={'EmailClientV2__send_email': 3, 'Contacts__add_new_contact': 3, '"
+21_prompt_generic_heldout,generic,ambiguity,scenario_universe_25_gxxvv1,False,True,False,True,yes,"Tool count mismatch: agent={'Calendar__add_calendar_event': 1, 'MessagingAppV2__send_message': 2, 'Shopping__add_to_cart': 1, 'Shopping__checkout': 1, 'Calendar__delete_calendar_event': 1}, oracle={'M"
+21_prompt_generic_heldout,generic,ambiguity,scenario_universe_25_kg0fti,False,True,False,False,no,"Tool count mismatch: agent={'RentAFlat__remove_saved_apartment': 11, 'EmailClientV2__delete_email': 2}, oracle={'RentAFlat__remove_saved_apartment': 4, 'EmailClientV2__delete_email': 2}"
+21_prompt_generic_heldout,generic,ambiguity,scenario_universe_25_lvk4j1,False,True,True,False,no,
+21_prompt_generic_heldout,generic,ambiguity,scenario_universe_26_3y5jkb,False,True,True,False,no,
+21_prompt_generic_heldout,generic,ambiguity,scenario_universe_26_4vt3k5,False,True,False,True,yes,"Tool count mismatch: agent={'Shopping__add_to_cart': 3, 'Shopping__checkout': 1, 'Calendar__add_calendar_event': 1}, oracle={'Shopping__add_to_cart': 3, 'Shopping__checkout': 1}"
+22_prompt_examples_heldout30,pattern_explicit,ambiguity,scenario_universe_21_3ixhl6,False,True,True,False,no,
+22_prompt_examples_heldout30,pattern_explicit,ambiguity,scenario_universe_21_3sr7jy,False,True,True,False,no,
+22_prompt_examples_heldout30,pattern_explicit,ambiguity,scenario_universe_21_4hfih3,False,True,True,False,no,
+22_prompt_examples_heldout30,pattern_explicit,ambiguity,scenario_universe_21_6oluaj,False,True,False,True,yes,"Tool count mismatch: agent={'EmailClientV2__send_email': 1, 'Calendar__add_calendar_event': 1, 'MessagingAppV2__create_group_conversation': 1, 'MessagingAppV2__send_message_to_group_conversation': 1, "
+22_prompt_examples_heldout30,pattern_explicit,ambiguity,scenario_universe_21_isnnos,False,True,True,False,no,
+22_prompt_examples_heldout30,pattern_explicit,ambiguity,scenario_universe_21_rxk1cz,False,True,True,False,no,
+22_prompt_examples_heldout30,pattern_explicit,ambiguity,scenario_universe_21_t3fztm,False,True,True,False,no,
+22_prompt_examples_heldout30,pattern_explicit,ambiguity,scenario_universe_21_tlc249,False,True,True,False,no,
+22_prompt_examples_heldout30,pattern_explicit,ambiguity,scenario_universe_21_uq7b9f,False,True,True,False,no,
+22_prompt_examples_heldout30,pattern_explicit,ambiguity,scenario_universe_22_0fgidr,False,True,True,False,no,
+22_prompt_examples_heldout30,pattern_explicit,ambiguity,scenario_universe_22_1nwlhy,False,True,False,True,yes,"Tool count mismatch: agent={'EmailClientV2__send_email': 3, 'Calendar__delete_calendar_event': 5}, oracle={'Calendar__delete_calendar_event': 5}"
+22_prompt_examples_heldout30,pattern_explicit,ambiguity,scenario_universe_22_84d6ju,False,True,True,False,no,
+22_prompt_examples_heldout30,pattern_explicit,ambiguity,scenario_universe_22_exxdvx,False,True,True,False,no,
+22_prompt_examples_heldout30,pattern_explicit,ambiguity,scenario_universe_22_gck0s0,False,True,False,False,no,"Cannot match Shopping__add_to_cart (OracleEvent-AGENT-b616ee6d-66e4-40c8-854d-aa25702b30c8): AGENT-Shopping.add_to_cart-c5a3bcda: eq_checker:item_id (agent=8cca4f40e1d54b638a0f96970245df98, oracle=27f"
+22_prompt_examples_heldout30,pattern_explicit,ambiguity,scenario_universe_22_h97rf8,False,True,True,False,no,
+22_prompt_examples_heldout30,pattern_explicit,ambiguity,scenario_universe_22_oxdkdo,False,True,True,False,no,
+22_prompt_examples_heldout30,pattern_explicit,ambiguity,scenario_universe_22_s4bqv7,False,True,False,True,yes,"Tool count mismatch: agent={'Calendar__add_calendar_event': 2, 'Calendar__delete_calendar_event': 1, 'EmailClientV2__send_email': 3, 'RentAFlat__remove_saved_apartment': 3}, oracle={'Calendar__add_cal"
+22_prompt_examples_heldout30,pattern_explicit,ambiguity,scenario_universe_22_smwxaa,False,True,False,False,no,Cannot match AgentUserInterface__send_message_to_user (OracleEvent-AGENT-02e93f8e-906c-4099-9935-bc90b7831b01): AGENT-AgentUserInterface.send_message_to_user-b9d1bc6a: user_message_checker (agent_args
+22_prompt_examples_heldout30,pattern_explicit,ambiguity,scenario_universe_22_zmg4mb,False,True,False,True,no,"Tool count mismatch: agent={'SandboxLocalFileSystem__makedirs': 1, 'SandboxLocalFileSystem__mv': 4}, oracle={'SandboxLocalFileSystem__mkdir': 1, 'SandboxLocalFileSystem__mv': 4}"
+22_prompt_examples_heldout30,pattern_explicit,ambiguity,scenario_universe_23_wzbmxj,False,True,True,False,no,
+22_prompt_examples_heldout30,pattern_explicit,ambiguity,scenario_universe_23_x1uuwg,False,True,True,False,no,
+22_prompt_examples_heldout30,pattern_explicit,ambiguity,scenario_universe_24_1ybabs,False,True,True,False,no,
+22_prompt_examples_heldout30,pattern_explicit,ambiguity,scenario_universe_24_ozc89a,False,True,False,True,yes,"Tool count mismatch: agent={'Calendar__add_calendar_event': 1, 'EmailClientV2__send_email': 1, 'EmailClientV2__reply_to_email': 1}, oracle={'Calendar__add_calendar_event': 1, 'EmailClientV2__send_emai"
+22_prompt_examples_heldout30,pattern_explicit,ambiguity,scenario_universe_24_pb6lig,False,True,True,False,no,
+22_prompt_examples_heldout30,pattern_explicit,ambiguity,scenario_universe_25_1zr9lt,False,True,False,True,no,"Tool count mismatch: agent={'Contacts__add_new_contact': 3, 'EmailClientV2__send_email': 3, 'EmailClientV2__delete_email': 2}, oracle={'EmailClientV2__move_email': 2, 'Contacts__add_new_contact': 3, '"
+22_prompt_examples_heldout30,pattern_explicit,ambiguity,scenario_universe_25_gxxvv1,False,True,True,False,no,
+22_prompt_examples_heldout30,pattern_explicit,ambiguity,scenario_universe_25_kg0fti,False,True,False,False,no,"Tool count mismatch: agent={'RentAFlat__remove_saved_apartment': 11, 'EmailClientV2__delete_email': 2}, oracle={'RentAFlat__remove_saved_apartment': 4, 'EmailClientV2__delete_email': 2}"
+22_prompt_examples_heldout30,pattern_explicit,ambiguity,scenario_universe_25_lvk4j1,False,True,True,False,no,
+22_prompt_examples_heldout30,pattern_explicit,ambiguity,scenario_universe_26_3y5jkb,False,True,False,False,no,Cannot match AgentUserInterface__send_message_to_user (OracleEvent-AGENT-219014fd-ee08-4776-8121-0956e1a9dc26): AGENT-AgentUserInterface.send_message_to_user-cf516d1f: user_message_checker (agent_args
+22_prompt_examples_heldout30,pattern_explicit,ambiguity,scenario_universe_26_4vt3k5,False,True,False,True,yes,"Tool count mismatch: agent={'Shopping__add_to_cart': 3, 'Shopping__checkout': 1, 'Calendar__add_calendar_event': 1}, oracle={'Shopping__add_to_cart': 3, 'Shopping__checkout': 1}"

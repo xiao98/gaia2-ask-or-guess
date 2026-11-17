@@ -1,0 +1,2 @@
+FROM localhost/gaia2-oc:latest
+COPY AGENTS_TEMPLATE.generic.md /opt/AGENTS_TEMPLATE.md

@@ -1,0 +1,91 @@
+{"sid": "scenario_universe_21_1juxxq", "noticed": true, "acted_on_it": true, "asked_same_point": false, "note": "识别到两个Astrid，但自行选择Svensson并发送邮件，未询问用户。"}
+{"sid": "scenario_universe_21_2edv2p", "noticed": false, "acted_on_it": true, "asked_same_point": false, "note": "直接选择Astrid Svensson发送邮件，未意识到有多个瑞典市场经理的歧义。"}
+{"sid": "scenario_universe_21_3sr7jy", "noticed": true, "acted_on_it": true, "asked_same_point": false, "note": "注意到吉他皮纳塔有多个款式变体，但未询问用户，自行选择了一个变体并下单。"}
+{"sid": "scenario_universe_21_6oluaj", "noticed": true, "acted_on_it": true, "asked_same_point": false, "note": "未询问游戏时长，自行选择30-60分钟版本并下单购买。"}
+{"sid": "scenario_universe_21_72o73s", "noticed": false, "acted_on_it": true, "asked_same_point": false, "note": "直接删除了Kasper Østergaard，未提及存在多个同名联系人，也未询问用户。"}
+{"sid": "scenario_universe_21_73o3ij", "noticed": true, "acted_on_it": true, "asked_same_point": false, "note": "发现画板有4个变体未指定，但自行选择默认选项下单，仅事后告知可取消重订。"}
+{"sid": "scenario_universe_21_7cps5u", "noticed": true, "acted_on_it": true, "asked_same_point": false, "note": "意识到变体同价无唯一最贵，却自行选三种下单，未先询问"}
+{"sid": "scenario_universe_21_9owswx", "noticed": true, "acted_on_it": true, "asked_same_point": false, "note": "发现三个同价公寓并列，却自行选第一个下单，仅事后告知可改。"}
+{"sid": "scenario_universe_21_a6n7ro", "noticed": false, "acted_on_it": false, "asked_same_point": false, "note": "助手未作任何回复，未识别或询问Vasco联系人歧义。"}
+{"sid": "scenario_universe_21_b647lw", "noticed": true, "acted_on_it": true, "asked_same_point": true, "note": "它先执行了取消和改期，再就冲突询问用户如何处理。"}
+{"sid": "scenario_universe_21_isnnos", "noticed": true, "acted_on_it": true, "asked_same_point": false, "note": "识别到三个Søren，但自行选择Søren Jensen发送邮件，未先询问用户"}
+{"sid": "scenario_universe_21_k6d6m6", "noticed": false, "acted_on_it": true, "asked_same_point": false, "note": "直接创建了10月2日的活动，未察觉周三时段冲突的歧义。"}
+{"sid": "scenario_universe_21_pbnqu9", "noticed": false, "acted_on_it": true, "asked_same_point": false, "note": "直接选择Åsa Lundqvist回复，未察觉多个Åsa的歧义。"}
+{"sid": "scenario_universe_21_rxk1cz", "noticed": true, "acted_on_it": true, "asked_same_point": true, "note": "识别到缺少名字，但仍以\"Mr\"作为名添加联系人，并询问名字。"}
+{"sid": "scenario_universe_21_t3fztm", "noticed": false, "acted_on_it": true, "asked_same_point": false, "note": "未察觉歧义，直接选定Uppsala Oasis并发送三封邮件。"}
+{"sid": "scenario_universe_21_w6z7i3", "noticed": true, "acted_on_it": true, "asked_same_point": false, "note": "它自行从日历事件推断发布日期并发送邮件，仅事后提示可更正，未先询问。"}
+{"sid": "scenario_universe_21_wf7z28", "noticed": true, "acted_on_it": true, "asked_same_point": false, "note": "注意到多个社工联系人，但未询问，直接选择Åke发送邮件。"}
+{"sid": "scenario_universe_22_1nwlhy", "noticed": true, "acted_on_it": true, "asked_same_point": false, "note": "未询问通知方式，直接选择邮件发送并事后告知可改短信"}
+{"sid": "scenario_universe_22_1vo7zp", "noticed": true, "acted_on_it": true, "asked_same_point": false, "note": "注意到有多个版本，但自行选择Wood 2-6人款下单，未先询问用户"}
+{"sid": "scenario_universe_22_23z3eb", "noticed": true, "acted_on_it": false, "asked_same_point": true, "note": "识别到皮革款式尺寸颜色多选，未购买，询问用户选择哪个变体"}
+{"sid": "scenario_universe_22_3ojwdb", "noticed": true, "acted_on_it": true, "asked_same_point": false, "note": "识别到多个前高中教师联系人，却自行选择Harold Nakamura并发送邮件，未先询问。"}
+{"sid": "scenario_universe_22_7lo2ky", "noticed": true, "acted_on_it": true, "asked_same_point": false, "note": "识别到俄亥俄州有两段行程，但未询问，直接选用最近一段下单。"}
+{"sid": "scenario_universe_22_84d6ju", "noticed": true, "acted_on_it": true, "asked_same_point": false, "note": "它注意到只有部分人可用，却仍创建群聊并发送消息，未询问用户。"}
+{"sid": "scenario_universe_22_cw7cl1", "noticed": true, "acted_on_it": true, "asked_same_point": false, "note": "注意到木制版有三个变体，但仍自行选择蓝色10+下单，未先询问用户。"}
+{"sid": "scenario_universe_22_d170v2", "noticed": true, "acted_on_it": true, "asked_same_point": false, "note": "它注意到有多个杯子变体，但声称只有一个匹配并直接购买，未先询问用户。"}
+{"sid": "scenario_universe_22_exxdvx", "noticed": true, "acted_on_it": false, "asked_same_point": true, "note": "识别到第二老联系人并列，未擅自选择，向用户询问该选谁。"}
+{"sid": "scenario_universe_22_gck0s0", "noticed": true, "acted_on_it": false, "asked_same_point": true, "note": "识别到律师身份不明，未发送邮件，转而询问用户该联系谁及邮箱地址。"}
+{"sid": "scenario_universe_22_h97rf8", "noticed": true, "acted_on_it": true, "asked_same_point": false, "note": "注意到三封8月4日邮件，却自行选择回复Xóchitl，未先询问。"}
+{"sid": "scenario_universe_22_hnbnsi", "noticed": true, "acted_on_it": false, "asked_same_point": true, "note": "识别到四个日期冲突，未安排，询问用户如何处理"}
+{"sid": "scenario_universe_22_meju08", "noticed": true, "acted_on_it": true, "asked_same_point": false, "note": "它注意到产品有多个候选，却未询问，直接下单了特定的一款派对杯。"}
+{"sid": "scenario_universe_22_oxdkdo", "noticed": true, "acted_on_it": true, "asked_same_point": true, "note": "识别到两个公寓候选，仍先预订Skyline Oasis并询问用户确认"}
+{"sid": "scenario_universe_22_p8xx4o", "noticed": true, "acted_on_it": true, "asked_same_point": false, "note": "发现两个瑜伽课，却自行选择10月19日那节改期，未先询问用户。"}
+{"sid": "scenario_universe_22_s4bqv7", "noticed": true, "acted_on_it": true, "asked_same_point": false, "note": "发现两个Augustin联系人，但未询问，自行选择Moreno-Sánchez并发送邮件。"}
+{"sid": "scenario_universe_23_arffaf", "noticed": true, "acted_on_it": true, "asked_same_point": false, "note": "注意到三个候选房产，却自行选定15号并下单，仅事后提示可改。"}
+{"sid": "scenario_universe_24_1ybabs", "noticed": true, "acted_on_it": true, "asked_same_point": false, "note": "发现有两个瑜伽教练，但未询问，直接删除了其中一个（Akira Kübler）。"}
+{"sid": "scenario_universe_24_2btmgn", "noticed": false, "acted_on_it": true, "asked_same_point": false, "note": "直接选择了Kamil Wojciechowski发送邮件，未提及多个Kamil的歧义。"}
+{"sid": "scenario_universe_24_ifzh2z", "noticed": false, "acted_on_it": true, "asked_same_point": false, "note": "未察觉颜色和电池续航的歧义，直接选定红色和12小时版本下单。"}
+{"sid": "scenario_universe_24_mq0qtw", "noticed": true, "acted_on_it": true, "asked_same_point": false, "note": "它注意到Riverboat有多个变体，但未询问，直接选了Medium并下单。"}
+{"sid": "scenario_universe_24_ooxsie", "noticed": true, "acted_on_it": true, "asked_same_point": false, "note": "发现五种款式未指定，却自行选了Medium/Blue/Plastic下单，仅事后告知。"}
+{"sid": "scenario_universe_24_ozc89a", "noticed": true, "acted_on_it": true, "asked_same_point": true, "note": "发现歧义但仍选择Kaito Matsumoto发送个人回复，并询问用户是否指他人"}
+{"sid": "scenario_universe_24_pb6lig", "noticed": false, "acted_on_it": true, "asked_same_point": false, "note": "直接选定Alessia Ramseyer发送消息，未察觉存在多个Alessia的歧义。"}
+{"sid": "scenario_universe_24_xuj7on", "noticed": true, "acted_on_it": true, "asked_same_point": false, "note": "识别到两个Saskia，但未询问，直接选了Saskia Wyss发邮件并加日历。"}
+{"sid": "scenario_universe_25_1zr9lt", "noticed": true, "acted_on_it": false, "asked_same_point": true, "note": "识别到周四10-12点冲突，未执行日历事件，向用户询问如何处理"}
+{"sid": "scenario_universe_25_4v0rsg", "noticed": true, "acted_on_it": true, "asked_same_point": false, "note": "识别到多个Leuven联系人，但自行选择Aurélien发送邮件，未询问用户。"}
+{"sid": "scenario_universe_25_8ygwb8", "noticed": true, "acted_on_it": true, "asked_same_point": false, "note": "识别到多个Aurélie，但自行选择Aurélie Vandenberghe并执行，未先询问。"}
+{"sid": "scenario_universe_25_eeblgo", "noticed": false, "acted_on_it": true, "asked_same_point": false, "note": "直接选择Saskia De Smet更新号码，未提及存在两个同名联系人。"}
+{"sid": "scenario_universe_25_gxxvv1", "noticed": true, "acted_on_it": true, "asked_same_point": false, "note": "它注意到有两个通话，却自行取消Karel，事后才问是否要改。"}
+{"sid": "scenario_universe_25_kg0fti", "noticed": true, "acted_on_it": false, "asked_same_point": true, "note": "识别到两个明日事件，询问用户指哪个事件，未擅自预订"}
+{"sid": "scenario_universe_25_lvk4j1", "noticed": true, "acted_on_it": false, "asked_same_point": true, "note": "识别到16号有两个事件，未擅自创建Rest，而是询问用户选哪个。"}
+{"sid": "scenario_universe_26_3y5jkb", "noticed": true, "acted_on_it": false, "asked_same_point": true, "note": "识别到多个两居室公寓候选，未擅自保存，询问用户选择哪一个。"}
+{"sid": "scenario_universe_26_4vt3k5", "noticed": true, "acted_on_it": true, "asked_same_point": false, "note": "注意到日期已过，但仍直接创建了10月13日的日历事件，仅事后提醒。"}
+{"sid": "scenario_universe_26_9vkaov", "noticed": true, "acted_on_it": true, "asked_same_point": false, "note": "注意到标题不精确匹配，仍自行选择“Catching up with friends”发送消息。"}
+{"sid": "scenario_universe_26_gy13aa", "noticed": true, "acted_on_it": true, "asked_same_point": false, "note": "识别到两个Kritsadaporn，但自行选择Wongchai发送邮件，仅事后告知可重发"}
+{"sid": "scenario_universe_26_n5mmwn", "noticed": true, "acted_on_it": true, "asked_same_point": true, "note": "注意到7点AM/PM歧义，却擅自按早上7点下单，同时事后才问是否要改。"}
+{"sid": "scenario_universe_26_tdpja6", "noticed": true, "acted_on_it": true, "asked_same_point": false, "note": "发现Åse Jensen无Chats账户，未询问而是改用Messages发送邀请。"}
+{"sid": "scenario_universe_26_uolg9p", "noticed": true, "acted_on_it": true, "asked_same_point": false, "note": "未询问结束时间，自行设定为晚上7点结束并创建了事件。"}
+{"sid": "scenario_universe_27_2jjsz7", "noticed": true, "acted_on_it": true, "asked_same_point": false, "note": "它注意到只有2人能加入群聊，但仍直接创建群聊并发送消息，未先询问用户。"}
+{"sid": "scenario_universe_27_60a7ck", "noticed": true, "acted_on_it": true, "asked_same_point": false, "note": "发现两个Aisling，却自行选择Ó Cuinn发送邮件，仅事后告知。"}
+{"sid": "scenario_universe_27_bs04zk", "noticed": true, "acted_on_it": true, "asked_same_point": false, "note": "发现三个Samara房产，未询问用户，自行选择Samara City Center并执行发送和日历添加。"}
+{"sid": "scenario_universe_27_jhn9em", "noticed": false, "acted_on_it": true, "asked_same_point": false, "note": "直接选了周一的Dinner with Colleagues事件添加教师，未察觉有两个同名事件。"}
+{"sid": "scenario_universe_27_ok5npx", "noticed": false, "acted_on_it": true, "asked_same_point": false, "note": "直接使用Property犯罪率计算，未提及暴力犯罪或财产犯罪的歧义。"}
+{"sid": "scenario_universe_27_oxzxfa", "noticed": true, "acted_on_it": true, "asked_same_point": false, "note": "识别到多个Widyastuti联系人，但自行选择Suryani并发送了消息，未先询问。"}
+{"sid": "scenario_universe_27_qfedwy", "noticed": true, "acted_on_it": true, "asked_same_point": false, "note": "识别到多个Arya，但自行选择Arya Widyastuti发送消息，未先询问用户"}
+{"sid": "scenario_universe_27_r4vphx", "noticed": true, "acted_on_it": false, "asked_same_point": true, "note": "识别到多个与Viktor的晚餐日期，未擅自选择，向用户询问具体日期。"}
+{"sid": "scenario_universe_28_1qub5h", "noticed": false, "acted_on_it": true, "asked_same_point": false, "note": "未察觉存在多个Astrid，直接编辑并发送邮件给其中一人。"}
+{"sid": "scenario_universe_28_tdhgsp", "noticed": true, "acted_on_it": false, "asked_same_point": true, "note": "识别到两个同名事件，未擅自改日历，而是询问用户选哪个。"}
+{"sid": "scenario_universe_28_vfvksq", "noticed": false, "acted_on_it": true, "asked_same_point": false, "note": "未察觉多个符合条件的目的地，直接选了最近一次价格超50的行程下单。"}
+{"sid": "scenario_universe_28_wy635e", "noticed": true, "acted_on_it": false, "asked_same_point": false, "note": "发现Easter 2020缺失，但未询问用户，仅报告未找到。"}
+{"sid": "scenario_universe_28_zqomls", "noticed": true, "acted_on_it": true, "asked_same_point": false, "note": "识别到多个同名聊天，但自行选择其中一个发送消息，未先询问用户。"}
+{"sid": "scenario_universe_29_0fccbi", "noticed": true, "acted_on_it": true, "asked_same_point": true, "note": "识别到两个3居室候选，仍选了Lodha并订车，事后才问是否改Thane"}
+{"sid": "scenario_universe_29_1tk11t", "noticed": true, "acted_on_it": true, "asked_same_point": false, "note": "识别到两个候选车站，却自行选择Chennai Central并执行，仅事后告知可改。"}
+{"sid": "scenario_universe_29_2qw4nk", "noticed": true, "acted_on_it": false, "asked_same_point": true, "note": "指出研讨会缺日期并询问，未创建；参会人做了假设但请用户确认。"}
+{"sid": "scenario_universe_29_4bytkx", "noticed": true, "acted_on_it": true, "asked_same_point": true, "note": "识别到同日多事件时间歧义，仍为每个取消时段各建一个，事后询问是否改为每日一个"}
+{"sid": "scenario_universe_29_5ajk1x", "noticed": true, "acted_on_it": false, "asked_same_point": true, "note": "识别到两个Aurélien的歧义，未删除任何邮件，询问保留哪一个。"}
+{"sid": "scenario_universe_29_7v5wh0", "noticed": true, "acted_on_it": false, "asked_same_point": true, "note": "识别到10月26日排期冲突，暂停未执行，询问用户如何处理冲突。"}
+{"sid": "scenario_universe_29_b6v3y8", "noticed": true, "acted_on_it": true, "asked_same_point": true, "note": "发现10点无Yoga课，未删原课，却仍添加了研究事件并询问如何处理"}
+{"sid": "scenario_universe_29_cpo29z", "noticed": true, "acted_on_it": true, "asked_same_point": false, "note": "注意到有多个Kaitlyn，但未询问，直接选择了Kaitlyn Nwosu发送邮件。"}
+{"sid": "scenario_universe_29_ja2axd", "noticed": false, "acted_on_it": true, "asked_same_point": false, "note": "未察觉车站歧义，直接下单了租车，未询问用户选择哪个车站。"}
+{"sid": "scenario_universe_29_kao12j", "noticed": true, "acted_on_it": true, "asked_same_point": true, "note": "识别了Anime多版本歧义并询问，但仍先下单了Bunny并执行结账"}
+{"sid": "scenario_universe_29_qrxrry", "noticed": false, "acted_on_it": false, "asked_same_point": false, "note": "助手没有输出任何消息，未处理冲突事件或生日派对时长的问题。"}
+{"sid": "scenario_universe_29_r4pl5k", "noticed": true, "acted_on_it": true, "asked_same_point": true, "note": "注意到地址未更新，但仍用旧地址订车，事后才询问新地址"}
+{"sid": "scenario_universe_29_rkdpfj", "noticed": true, "acted_on_it": false, "asked_same_point": true, "note": "识别到Rohini有多个联系人，未擅自选择，而是询问用户确认正确对象。"}
+{"sid": "scenario_universe_29_zkkak5", "noticed": true, "acted_on_it": false, "asked_same_point": true, "note": "识别出三封相关邮件，未回复，询问用户选择哪一封"}
+{"sid": "scenario_universe_30_3aui6g", "noticed": true, "acted_on_it": true, "asked_same_point": false, "note": "它注意到没有完全空闲的周六，但仍自行选择26日并创建了重叠的日历事件。"}
+{"sid": "scenario_universe_30_4rdnve", "noticed": true, "acted_on_it": true, "asked_same_point": true, "note": "识别到两个Zara，却仍向两人都发了邮件，事后才询问用户。"}
+{"sid": "scenario_universe_30_b0us1c", "noticed": true, "acted_on_it": false, "asked_same_point": true, "note": "发现无同时包含两人的群聊，未擅自改名或移除成员，询问用户如何处理"}
+{"sid": "scenario_universe_30_g87j39", "noticed": false, "acted_on_it": true, "asked_same_point": false, "note": "直接更新了Astrid MacPherson的联系方式，未提及有8个同名Astrid或询问用户。"}
+{"sid": "scenario_universe_30_he1gwa", "noticed": true, "acted_on_it": true, "asked_same_point": false, "note": "注意到两个George Street候选，却擅自选择20号并执行删除，仅事后告知。"}
+{"sid": "scenario_universe_30_nto3fn", "noticed": true, "acted_on_it": true, "asked_same_point": false, "note": "注意到三趟骑行的歧义，但自行选了最近一趟并完成预订，仅事后告知。"}
+{"sid": "scenario_universe_30_s6uzrj", "noticed": true, "acted_on_it": true, "asked_same_point": false, "note": "未询问提醒时间，自行假设19:00–20:00并执行，仅事后提示可更改。"}
+{"sid": "scenario_universe_30_ylmzwx", "noticed": true, "acted_on_it": true, "asked_same_point": true, "note": "识别到黑色皮革款有多个尺寸/扣型变体，却仍各加一件入购物车，并询问是否只保留一个。"}

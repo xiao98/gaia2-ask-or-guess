@@ -1,0 +1,26 @@
+# Stage 2a WITH examples (image gaia2-oc:ask2a) on the 30 held-out ambiguity scenarios that were valid in run 21 (disentangle wording vs overfitting).
+[target]
+dataset = "meta-agents-research-environments/gaia2-cli"
+splits = ["ambiguity"]
+subset_manifest = "<RUNS_DIR>/s2/subset_heldout_valid30.json"
+
+[agent]
+image = "localhost/gaia2-oc:ask2a"
+provider = "anthropic"
+model = "deepseek-flash"
+base_url = "https://api.deepseek.com/anthropic"
+api_key_env = "DEEPSEEK_API_KEY"
+
+[judge]
+provider = "openai-compat"
+model = "deepseek-flash"
+base_url = "https://api.deepseek.com/v1"
+api_key_env = "DEEPSEEK_API_KEY"
+
+[run]
+timeout = 900
+health_timeout = 180
+concurrency = 3
+pass_at = 1
+output_dir = "<RUNS_DIR>/22_prompt_examples_heldout30"
+log_level = "INFO"

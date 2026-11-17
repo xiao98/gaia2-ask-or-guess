@@ -1,0 +1,26 @@
+# Stage 1 (ask-or-guess): isolated execution scenarios (negatives: nothing to ask), OpenClaw + deepseek-flash, pass@1.
+[target]
+dataset = "meta-agents-research-environments/gaia2-cli"
+splits = ["execution"]
+
+
+[agent]
+image = "localhost/gaia2-oc:latest"
+provider = "anthropic"
+model = "deepseek-flash"
+base_url = "https://api.deepseek.com/anthropic"
+api_key_env = "DEEPSEEK_API_KEY"
+
+[judge]
+provider = "openai-compat"
+model = "deepseek-flash"
+base_url = "https://api.deepseek.com/v1"
+api_key_env = "DEEPSEEK_API_KEY"
+
+[run]
+timeout = 900
+health_timeout = 180
+concurrency = 3
+pass_at = 1
+output_dir = "<RUNS_DIR>/10b_execution_deepseek"
+log_level = "INFO"

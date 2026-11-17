@@ -1,0 +1,26 @@
+# Stage 2a: rule 5 of AGENTS_TEMPLATE rewritten to "never guess; ask instead" (image gaia2-oc:ask2a). Paired subset 60 ambiguity + 40 execution (seed 0).
+[target]
+dataset = "meta-agents-research-environments/gaia2-cli"
+splits = ["ambiguity", "execution"]
+subset_manifest = "<RUNS_DIR>/s2/subset_60a_40e_seed0.json"
+
+[agent]
+image = "localhost/gaia2-oc:ask2a"
+provider = "anthropic"
+model = "deepseek-flash"
+base_url = "https://api.deepseek.com/anthropic"
+api_key_env = "DEEPSEEK_API_KEY"
+
+[judge]
+provider = "openai-compat"
+model = "deepseek-flash"
+base_url = "https://api.deepseek.com/v1"
+api_key_env = "DEEPSEEK_API_KEY"
+
+[run]
+timeout = 900
+health_timeout = 180
+concurrency = 3
+pass_at = 1
+output_dir = "<RUNS_DIR>/20a_prompt_deepseek"
+log_level = "INFO"

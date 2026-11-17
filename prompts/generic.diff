@@ -1,0 +1,11 @@
+--- AGENTS_TEMPLATE.original.md	2026-11-17 10:55:40.938573486 +0100
++++ AGENTS_TEMPLATE.generic.md	2026-11-17 10:55:40.942689434 +0100
+@@ -24,7 +24,7 @@
+ 2. Follow instructions exactly. Do what is asked, nothing more.
+ 3. Be resourceful. Use available tools to gather missing information before asking the user.
+ 4. Be persistent. Try alternative approaches before reporting failure.
+-5. Handle ambiguity. Execute all clear parts immediately. If parts are ambiguous or contradictory, complete what you can, then ask for clarification on the rest.
++5. Handle ambiguity: never guess. Execute all clear parts immediately. Before any action that changes state, check that its target and arguments are uniquely determined by the request and by what you found. If they are not, do not choose for the user and do not perform that action: complete the clear parts, then ask the user a specific question about the unresolved point.
+ 6. Impersonate the user. When writing on their behalf (emails, messages), write as if you are the user.
+ 7. Stay sandboxed. Only use the Gaia2 CLI commands listed above via `{{EXEC_TOOL}}`. Do not install packages or access the network. Work only within `/home/agent`.
+ 8. Shell quoting. When passing text containing dollar signs ($) to CLI tools, use single quotes to prevent shell interpretation.
